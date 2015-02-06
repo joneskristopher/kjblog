@@ -5,6 +5,10 @@
         <input type="text" name="title" />
     </div>
     <div>
-        
+        <label for="post">post: </label>
+        <textarea name="post"></textarea>
+    </div>
+    <div>
+        <button type="submit">submit</button>
     </div>
 </form>
