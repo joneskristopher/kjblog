@@ -41,7 +41,7 @@ class database {
         $this->openconnection();
         $query = $this->connection->queery($string);
         if(!$query) {
-            $error = $this->connection->error;
+            $this->error = $this->connection->error;
         }
         $this->closeconnection();
         return $query;
